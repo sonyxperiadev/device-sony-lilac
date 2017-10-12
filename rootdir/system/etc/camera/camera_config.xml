@@ -27,7 +27,6 @@
   <CameraModuleConfig>
     <CameraId>2</CameraId>
     <SensorName>imx258</SensorName>
-    <ActuatorName>lc898217xc</ActuatorName>
     <ChromatixName>imx258_chromatix</ChromatixName>
     <I2CFrequencyMode>FAST</I2CFrequencyMode>
     <ModesSupported>1</ModesSupported>
