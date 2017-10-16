@@ -1,0 +1,38 @@
+<ChromatixConfigurationRoot>
+  <CommonChromatixInfo>
+    <ChromatixName>
+      <ISPCommon>imx219_common</ISPCommon>
+      <PostProc>imx219_postproc</PostProc>
+      <CPPPreview>imx219_cpp_preview</CPPPreview>
+      <CPPSnapshot>imx219_cpp_snapshot</CPPSnapshot>
+      <CPPLiveshot>imx219_cpp_liveshot</CPPLiveshot>
+    </ChromatixName>
+  </CommonChromatixInfo>
+  <ResolutionChromatixInfo>
+    <ChromatixName sensor_resolution_index="0">
+      <ISPPreview>imx219_snapshot</ISPPreview>
+      <ISPSnapshot>imx219_snapshot</ISPSnapshot>
+      <ISPVideo>imx219_video</ISPVideo>
+      <CPPVideo>imx219_cpp_video</CPPVideo>
+      <A3Preview>imx219_default_preview</A3Preview>
+      <A3Video>imx219_default_video</A3Video>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="1">
+      <ISPPreview>imx219_preview</ISPPreview>
+      <ISPSnapshot>imx219_preview</ISPSnapshot>
+      <ISPVideo>imx219_video</ISPVideo>
+      <CPPVideo>imx219_cpp_video</CPPVideo>
+      <A3Preview>imx219_default_preview</A3Preview>
+      <A3Video>imx219_default_video</A3Video>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="2">
+      <ISPPreview>imx219_preview</ISPPreview>
+      <ISPSnapshot>imx219_preview</ISPSnapshot>
+      <ISPVideo>imx219_video</ISPVideo>
+      <CPPVideo>imx219_cpp_video</CPPVideo>
+      <PostProc>imx219_postproc</PostProc>
+      <A3Preview>imx219_default_preview</A3Preview>
+      <A3Video>imx219_default_video</A3Video>
+    </ChromatixName>
+  </ResolutionChromatixInfo>
+</ChromatixConfigurationRoot>

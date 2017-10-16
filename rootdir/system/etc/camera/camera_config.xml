@@ -26,8 +26,8 @@
   </CameraModuleConfig>
   <CameraModuleConfig>
     <CameraId>2</CameraId>
-    <SensorName>imx258</SensorName>
-    <ChromatixName>imx258_chromatix</ChromatixName>
+    <SensorName>imx219</SensorName>
+    <ChromatixName>imx219_chromatix</ChromatixName>
     <I2CFrequencyMode>FAST</I2CFrequencyMode>
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>

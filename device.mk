@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES := \
 # Camera Configuration
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/rootdir/system/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
-    $(DEVICE_PATH)/rootdir/system/etc/camera/imx258_chromatix.xml:system/etc/camera/imx258_chromatix.xml \
+    $(DEVICE_PATH)/rootdir/system/etc/camera/imx219_chromatix.xml:system/etc/camera/imx219_chromatix.xml \
     $(DEVICE_PATH)/rootdir/system/etc/camera/imx400_chromatix.xml:system/etc/camera/imx400_chromatix.xml
 
 # Audio calibration
