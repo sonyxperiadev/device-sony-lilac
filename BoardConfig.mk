@@ -14,7 +14,12 @@
 
 include device/sony/yoshino/PlatformConfig.mk
 
+TARGET_BOOTLOADER_BOARD_NAME := unknown
+ifneq (,$(filter %g8441,$(TARGET_PRODUCT)))
 TARGET_BOOTLOADER_BOARD_NAME := G8441
+else
+$(error Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)")
+endif
 
 # Platform
 PRODUCT_PLATFORM := yoshino
