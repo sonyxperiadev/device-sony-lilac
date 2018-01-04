@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
 
 # Device Init
 PRODUCT_PACKAGES += \
+    fstab.lilac \
     init.recovery.lilac \
     init.lilac \
     ueventd.lilac
