@@ -65,8 +65,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.lilac \
     init.recovery.lilac \
-    init.lilac \
-    ueventd.lilac
+    init.lilac
 
 # Lights
 PRODUCT_PACKAGES += \
