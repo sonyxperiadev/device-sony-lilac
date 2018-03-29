@@ -71,11 +71,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.lilac
 
-# Fingerprint HAL
-PRODUCT_PACKAGES += \
-    fingerprintd \
-    fingerprint.lilac
-
 # NFC config
 PRODUCT_PACKAGES += \
     nfc_nci.lilac
