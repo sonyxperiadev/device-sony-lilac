@@ -88,6 +88,9 @@ PRODUCT_PROPERTY_OVERRIDES := \
     ro.sf.lcd_density=320 \
     ro.usb.pid_suffix=1F4
 
+# setup dm-verity configs.
+PRODUCT_VENDOR_VERITY_PARTITION := /dev/block/platform/soc/1da4000.ufshc/by-name/vendor
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/yoshino/platform.mk)
 
