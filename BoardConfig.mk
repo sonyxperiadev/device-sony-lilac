@@ -18,7 +18,8 @@ TARGET_BOOTLOADER_BOARD_NAME := unknown
 ifneq (,$(filter %g8441,$(TARGET_PRODUCT)))
 TARGET_BOOTLOADER_BOARD_NAME := G8441
 else
-$(error Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)")
+TARGET_BOOTLOADER_BOARD_NAME := G8441
+$(warning Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)", using default value: "$(TARGET_BOOTLOADER_BOARD_NAME)")
 endif
 
 # Platform
