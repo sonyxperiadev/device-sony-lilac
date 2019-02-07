@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tof_focus_calibration>
+    <tof_focus>
+        <focus millimeters="1014 858 713 594 516 411 292 202 148 100 85"
+               focus_step="2098884 2141899 2130536 2275020 2362593 3036384
+                           3704503 4116250 5082159 5730547 6128274"/>
+        <polyreg_tuning degree="7" extra="0"/>
+        <ranging_limits min_range="0" max_range="940"/>
+    </tof_focus>
+</tof_focus_calibration>

@@ -37,6 +37,10 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/vendor/etc/camera/imx219_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx219_chromatix.xml \
     $(DEVICE_PATH)/vendor/etc/camera/imx400_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx400_chromatix.xml
 
+# Focus calibration
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/vendor/etc/tof_focus_calibration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/tof_focus_calibration.xml
+
 # Audio Configuration
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
