@@ -70,10 +70,6 @@ PRODUCT_PACKAGES += \
     init.recovery.lilac \
     init.lilac
 
-# Simple PowerHAL
-PRODUCT_PACKAGES += \
-    power.lilac
-
 # NFC config
 PRODUCT_PACKAGES += \
     nfc_nci.lilac
