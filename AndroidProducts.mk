@@ -14,3 +14,7 @@
 
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_g8441.mk
 
+COMMON_LUNCH_CHOICES += \
+    aosp_g8441-eng \
+    aosp_g8441-userdebug
+
