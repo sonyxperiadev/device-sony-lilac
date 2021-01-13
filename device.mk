@@ -18,8 +18,6 @@ DEVICE_PATH := device/sony/lilac/rootdir
 DEVICE_PACKAGE_OVERLAYS += \
     device/sony/lilac/overlay
 
-PRODUCT_SHIPPING_API_LEVEL := 26
-
 # Device Specific Permissions
 PRODUCT_COPY_FILES := \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml \
